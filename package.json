@@ -1,0 +1,19 @@
+{
+  "name": "http-grundlagen",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "node src/app.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node dist/app.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}
